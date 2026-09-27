@@ -189,11 +189,12 @@ main section {
 
 /* resume section styles */
 
-.resume .section-title{
+.resume .section-title {
     text-align: center;
 }
-.section-title{
-    margin-bottom:113px;
+
+.section-title {
+    margin-bottom: 113px;
 }
 
 .resume-container {
@@ -211,24 +212,74 @@ main section {
     color: #474747;
     font-size: 25px;
     font-weight: bold;
-    margin-bottom:-20px;
+    margin-bottom: -20px;
 }
 
 .experience-sub-title {
     color: #757575;
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     margin-bottom: -0.5px;
 }
-.experience-description{
+
+.experience-description {
     color: #757575;
     font-size: 16px;
     line-height: 1.8;
 }
-.resume button{
-    margin-top:50px;
-    
+
+.resume button {
+    margin-top: 50px;
+
     /* display: block;
     margin: 0 auto;
     text-align: center; */
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    gap: 117px;
+    padding: 130px 230px;
+}
+
+footer .section-title {
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    width: 50%;
+
+}
+footer .social-media img{
+    margin-right: 24px;
+}
+
+footer input[type="text"],
+footer input[type="email"] {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #757575;
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 30px;
+}
+
+footer textarea {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #757575;
+    background-color: white;
+    height: 180px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 30px;
+    font-family: "Open Sans", sans-serif;
+    
 }
