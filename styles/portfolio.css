@@ -281,5 +281,5 @@ footer textarea {
     border: none;
     padding: 18px 30px;
     font-family: "Open Sans", sans-serif;
-    
+    resize: none;
 }
